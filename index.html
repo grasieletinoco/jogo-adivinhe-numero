@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Número Secreto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo_jogo">Jogo Número Secreto</h1>
+    </header>
+
+    <main>
+
+        <section class="jogo">
+            
+            <div class="container">
+
+                <div class="jogo__secreto">
+                    
+                    <div class="jogo__texto">
+                        <h2 id="texto1">Adivinhe o Número!</h2>
+                        <p id="texto2">Estou pensando em um Número de 1 a 100. Você só tem 10 Tentativas</p>
+                    </div>
+    
+                    <div class="jogo__escolha">
+                        <div>
+                            <p>Escolha um Número entre 1 e 100:</p>
+                            <input type="number" name="" id="campo__escolha" placeholder="Digite um Número">    
+                        </div>
+    
+                        <div class="jogo__btn">
+                            <button id="numero__secreto"> Chutar </button>
+                            <button id="novo__jogo" disable> Novo Jogo </button>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="jogo__tentativas">
+    
+                        <div>
+                            <h3>Números Escolhidos :</h3>
+                            <p class="tentativas" id="numeros__escolhidos"></p>
+                        </div>
+                
+                        <div>
+                            <h3>Quantidade Tentativas:</h3>
+                            <p class="tentativas" id="quantidade__tentativas"></p>
+                        </div>
+                    
+                    </div>
+    
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="rodape">
+            <h3>Desenvolvido por Grasiele Tinoco</h3>
+            <ul>
+                <li> <a href="https://github.com/grasieletinoco" target="_blank" title="GitHub"><img src="assets/img/social-media-github.svg" width="30px" height="30px"> </a></li>
+                <li> <a href="https://www.linkedin.com/in/grasieletinoco/" target="_blank" title="LinkedIn"><img src="assets/img/social-media-linkedin.svg" width="30px" height="30px"> </a></li>
+            </ul>    
+        </div>
+   
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
